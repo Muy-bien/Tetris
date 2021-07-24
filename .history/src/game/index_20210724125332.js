@@ -1,5 +1,6 @@
 export * from "./config.js";
-import { initMap } from "./map.js";
+export { map } from "./map.js";
+import { initMap, map } from "./map.js";
 import { render } from "./render";
 
 export function startGame(map) {

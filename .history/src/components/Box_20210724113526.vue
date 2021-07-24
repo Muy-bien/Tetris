@@ -5,14 +5,12 @@
 </template>
 
 <script setup>
-  import { computed } from 'vue'
-
     const props = defineProps(['type'])
     const typeToColorMap = {
       [0]: "#7f876a",
       [1]: "#9a2020"
     }
-    const color = computed(() => typeToColorMap[props.type])
+    const color = typeToColorMap[props.type]
 </script>
 
 <style scoped>
