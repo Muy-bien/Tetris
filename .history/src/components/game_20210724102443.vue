@@ -9,8 +9,9 @@
 </template>
 
 <script setup>
-import Box from "./Box.vue";
+// import Box from "./Box.vue";
 import { gameRow, gameCol, map } from "../game";
+console.log(map);
 </script>
 
 <style scoped>

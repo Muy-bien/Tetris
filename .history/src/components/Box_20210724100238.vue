@@ -1,11 +1,11 @@
 <template>
   <div class="box">
-    <div class="box-main">{{type}}</div>
+    <div class="box-main">1</div>
   </div>
 </template>
 
 <script setup>
-    const props = defineProps(['type'])
+    const props = defindProps(['type'])
 </script>
 
 <style scoped>

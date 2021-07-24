@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <div class="box-main">{{type}}</div>
+    <div class="box-main">{{props.type}}</div>
   </div>
 </template>
 

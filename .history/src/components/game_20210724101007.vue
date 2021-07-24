@@ -10,7 +10,8 @@
 
 <script setup>
 import Box from "./Box.vue";
-import { gameRow, gameCol, map } from "../game";
+import {gameRow, gameCol, map} from '../game/index'
+
 </script>
 
 <style scoped>
